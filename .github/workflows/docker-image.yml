@@ -20,4 +20,4 @@ jobs:
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag jpzu/express-randomquotes:latest
       - name: Docker Push
-        run: docker push JPZU/randomquotes
+        run: docker push jpzu/express-randomquotes
